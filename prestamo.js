@@ -25,7 +25,7 @@ class Prestamo {
         const prestamoFormat = this.prestamo.toFixed(2);
         const porcentajeInteres = (this.interes * 100).toFixed(2);
 
-        return `${this.nombre} – $ ${cuota} -- $ ${prestamoFormat} -- ${this.meses} meses --- interés ${porcentajeInteres}%`;
+        return `${this.nombre} – $ ${cuota} -- $ ${prestamoFormat} -- ${this.meses} meses -- interés ${porcentajeInteres}%`;
     }
 }
 
